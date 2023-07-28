@@ -26,7 +26,7 @@ if (tinymce.majorVersion == 6) {
         if (!tinymce || !tinymce.get() || !tinymce.get()[0])
             return null; // i. e. TinyMCE was bundled and the plugin loads before an instance config
         var options = tinymce.get()[0].options;
-        let defaultValue = false;
+        var defaultValue = false;
         if (type === "string")
             defaultValue = "";
         else if (type === "object")
@@ -37,7 +37,7 @@ if (tinymce.majorVersion == 6) {
         else
             return null;
     }
-    flmngrOpts = getOption("Flmngr", "object");
+    var flmngrOpts = getOption("Flmngr", "object");
     if (!!flmngrOpts)
         apiKey = flmngrOpts["apiKey"];
     if (!apiKey)
