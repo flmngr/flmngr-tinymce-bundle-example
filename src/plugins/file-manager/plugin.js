@@ -79,8 +79,8 @@ n1edHttps = !(getCookie("N1ED_HTTPS") === "false" || n1edHttps === false);
 n1edPrefix = getCookie("N1ED_PREFIX") || n1edPrefix || null;
 n1edHttpsApp = !(getCookie("N1ED_HTTPS_APP") === "false" || n1edHttpsApp === false);
 n1edPrefixApp = getCookie("N1ED_PREFIX_APP") || n1edPrefixApp || null;
-protocol = n1edHttps ? "https" : "http";
-host = (n1edPrefix ? (n1edPrefix + ".") : "") + "cloud.flmngr.com";
+var protocol = n1edHttps ? "https" : "http";
+var host = (n1edPrefix ? (n1edPrefix + ".") : "") + "cloud.flmngr.com";
 version = getCookie("N1ED_VERSION") || version || "latest";
 
 if (!urlCache) {
