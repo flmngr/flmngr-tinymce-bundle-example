@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*******************************/
 /***/ (() => {
 
-eval("\n// Replace with your own Flmngr API key\n// Get it from: https://flmngr.com\nwindow.OVERRIDE_API_KEY = \"FLMNFLMN\";\n\n//# sourceURL=webpack:///./src/flmngr-api-key.js?");
+eval("\n// Replace with your own Flmngr API key\n// Get it from: https://flmngr.com\nwindow.OVERRIDE_API_KEY = \"FLMN24RR1234123412341234\";\n\n//# sourceURL=webpack:///./src/flmngr-api-key.js?");
 
 /***/ }),
 

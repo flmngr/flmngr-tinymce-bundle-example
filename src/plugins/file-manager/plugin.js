@@ -72,7 +72,7 @@ function getCookie(name) {
 }
 
 window.TINYMCE_OVERRIDE_API_KEY_PARAM = "OVERRIDE_API_KEY";
-apiKey = getCookie("N1ED_APIKEY") || apiKey || window.OVERRIDE_API_KEY || "FLMNFLMN";
+apiKey = getCookie("N1ED_APIKEY") || apiKey || window.OVERRIDE_API_KEY || "FLMN24RR1234123412341234";
 console.log(apiKey);
 console.log(window.OVERRIDE_API_KEY);
 n1edHttps = !(getCookie("N1ED_HTTPS") === "false" || n1edHttps === false);
